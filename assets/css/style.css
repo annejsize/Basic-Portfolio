@@ -11,38 +11,90 @@ Stylin' The Site
 —----Elements within Body Styling ----- 
 */
 
+.container {
+    margin: 0 auto;
+    width: 960px;
+}
+
+.main-sect {
+    width: 650px;
+}
+.sidebar {
+    width: 270px;
+}
+
 #bio-image {
     width: 200px;
     height: 200px;
     margin-right: 20px;
 }
+
+.icon-image {    
+    width: 20%;
+    height: auto;
+}
+
+.main-sect, #bio-image, .sidebar {
+    float: left;
+}
  /* 
 —----Font Styling----- 
 */
+p {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-right: 30px;
+}
+
+h1 {
+    background-color: #4aaaa5;
+    margin-top: 0;
+    margin-left: 60px;
+    padding: 20px;
+/* Using the inline block feature - made everything
+line up nickely */
+    display: inline-block;
+}
+
+h1 h2 h3 h4 h5 {
+    font-family: "Georgia", Times New Roman, Times, serif;
+}
+
+
  /* 
+}
+}
 —----List Styling----- 
 */
-/*
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: #333333;
 }
+
+li {
+    display: inline;
+    color: #777777;
+}
+
+/*
 
 li {
     float: left;
 }
-
+/*
 li a {
     display: block;
-    color: white;
+    color: #777777;
     text-align: right;
     padding: 16px;
     text-decoration: none;
 }
 
-li a:hover {
-    background-color: #111111;
+/*
+https://css-tricks.com/couple-takes-sticky-footer/
+*/
+
+.footer {
 }
