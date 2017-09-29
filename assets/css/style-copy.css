@@ -13,12 +13,13 @@ body {
 
 .header-all {
     width: 100%;
+    margin-top:20px;
     padding-left: 228px;
     float: left;
 }
 
 .header-1 {
-    width:650px;
+    width:630px;
     float:left;
 }
 
@@ -146,23 +147,6 @@ input[type=submit] {
 }
 
  /* 
-—----Last Resort Paddings----- 
-*/
-
-.padme {
-    padding-top:10px;
-    padding-bottom: 5px;
-    text-align: center;
-
-}
-
-.padmep {
-    padding-top:30px;
-    text-align: center;
-
-}
-
- /* 
 —----Font Styling----- 
 */
 
@@ -212,6 +196,20 @@ h2, h3 {
     color:#4aaaa5;
     font-family: "Georgia", Times New Roman, Times, serif;
 }
+
+.padme {
+    padding-top:10px;
+    padding-bottom: 5px;
+    text-align: center;
+
+}
+
+.padmep {
+    padding-top:30px;
+    text-align: center;
+
+}
+
 
  /* 
 —----List Styling----- 
