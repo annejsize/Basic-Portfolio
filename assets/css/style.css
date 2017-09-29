@@ -33,7 +33,7 @@ body {
 
 .container {
     float: left;
-    background-image: url('congruent_outline.png');
+    background-image: url('../images/congruent_outline.png');
     width: 100%;
     padding-left: 228px;
     padding-top: 52px;
